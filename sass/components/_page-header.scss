@@ -1,0 +1,13 @@
+.page-header--border {
+  padding: 0;
+  border-bottom: 1px solid var(--border-header-color);
+}
+
+/* Main nav */
+
+.main-nav,
+.page-header__nav {
+  display: flex;
+  align-items: center;
+  padding: 0;
+}

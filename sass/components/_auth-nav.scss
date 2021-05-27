@@ -1,0 +1,33 @@
+.auth-nav {
+  display: flex;
+  margin-left: auto;
+}
+
+.auth-nav__item:not(:last-child) {
+  margin-right: 50px;
+}
+.auth-nav__link {
+  padding-top: 32px;
+  padding-bottom: 32px;
+  color: var(--title-text-color);
+  fill: var(--title-text-color);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 1.14;
+  letter-spacing: 0.02em;
+
+  &:hover,
+  &:focus {
+    fill: var(--acent-color);
+    color: var(--acent-color);
+  }
+}
+
+.auth-nav__svg {
+  content: "";
+  margin-right: 10px;
+  background-position: center;
+  background-size: contain;
+  color: currentColor;
+}
